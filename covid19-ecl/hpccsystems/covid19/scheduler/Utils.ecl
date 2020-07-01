@@ -228,7 +228,7 @@ EXPORT Utils := MODULE
       EXPORT guidFilePath := '~covid19::kafka::guid';
       EXPORT defaultGUID :=  DATASET(guidFilePath, {STRING s}, FLAT)[1].s;
       EXPORT defaultTopic := 'Dataflow';
-      EXPORT defaultBroker := '18.224.242.220:9092';
+      EXPORT defaultBroker := '52.255.183.194:9092';
       EXPORT l_json := RECORD
         STRING applicationid;
         STRING wuid;

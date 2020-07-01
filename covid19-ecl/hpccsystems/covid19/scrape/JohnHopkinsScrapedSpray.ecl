@@ -9,7 +9,7 @@ IMPORT hpccsystems.covid19.file.public.JohnHopkins as jh;
 // Define attributes for spray
 today := STD.Date.Today();
 tempSuperFileName := '~hpccsystems::covid19::file::raw::JohnHopkins::V2::temp';
-lzip:= '172.31.42.168';
+lzip:= '10.0.0.4';
 srcPath := '/var/lib/HPCCSystems/mydropzone/hpccsystems/covid19/file/raw/Scraped/';
 scopeName := '~hpccsystems::covid19::file::raw::JohnHopkins::Scraped::';
 l_incoming := RECORD
